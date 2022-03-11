@@ -1,0 +1,14 @@
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\bin\Debug\netcoreapp3.1\FMA_Task_05.exe
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\bin\Debug\netcoreapp3.1\FMA_Task_05.deps.json
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\bin\Debug\netcoreapp3.1\FMA_Task_05.runtimeconfig.json
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\bin\Debug\netcoreapp3.1\FMA_Task_05.runtimeconfig.dev.json
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\bin\Debug\netcoreapp3.1\FMA_Task_05.dll
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\bin\Debug\netcoreapp3.1\FMA_Task_05.pdb
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.csproj.AssemblyReference.cache
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.AssemblyInfoInputs.cache
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.AssemblyInfo.cs
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.csproj.CoreCompileInputs.cache
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.dll
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.pdb
+C:\Users\rde85\source\repos\TrainingPractice_01\FMA_Task_05\obj\Debug\netcoreapp3.1\FMA_Task_05.genruntimeconfig.cache
