@@ -1,0 +1,11 @@
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\bin\Debug\netcoreapp3.1\FMA_Task_04.exe
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\bin\Debug\netcoreapp3.1\FMA_Task_04.deps.json
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\bin\Debug\netcoreapp3.1\FMA_Task_04.runtimeconfig.json
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\bin\Debug\netcoreapp3.1\FMA_Task_04.runtimeconfig.dev.json
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\bin\Debug\netcoreapp3.1\FMA_Task_04.dll
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\bin\Debug\netcoreapp3.1\FMA_Task_04.pdb
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\obj\Debug\netcoreapp3.1\FMA_Task_04.csprojAssemblyReference.cache
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\obj\Debug\netcoreapp3.1\FMA_Task_04.AssemblyInfoInputs.cache
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\obj\Debug\netcoreapp3.1\FMA_Task_04.AssemblyInfo.cs
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\obj\Debug\netcoreapp3.1\FMA_Task_04.dll
+C:\Users\897-19\Desktop\Practice\TrainingPractice_01\FMA_Task_04\obj\Debug\netcoreapp3.1\FMA_Task_04.pdb

@@ -7,26 +7,25 @@ namespace FMA_Task_04
     {
         static void Main(string[] args)
         {
-            int healthBoss = 600;
-            int damageBoss = 55;
+            int healthBoss = 550;
+            int damageBoss = 75;
 
-            int healthPlayer = 300;
-            int manaPlayer = 400;
+            int healthPlayer = 500;
+            int ragePlayer = 100;
 
             bool enableGame = true;
             string enterSpell;
 
-            Console.WriteLine("Перед вами стоит огромный дракон Дорнозму, он настроен агрессивно и битвы избежать невозможно, приготовтесь к бою. \nВаши доступные заклинания: \n" +
-                "1) fireball - Огненый шар наносит 70 урона, отнимает 95 едениц маны.\n" +
-                "2) healstone - Камень жизни, который востанавливает игроку по 65 ХП в течении 3 секунд даёт неуязвимость на время действия, отнимает 50 единиц маны.\n" +
-                "3) manastone - Камень маны, который востанавливает игроку по 65 MП в течении 3 секунд, даёт неуязвимость на время действия, отнимает 5 единиц маны.\n" +
-                "4) killboss - Удар невиданной силы убивающий всё живое.\n");
+            Console.WriteLine("Вы - рыцарь, которому подвластно всё. Ваша задача победить Дробителя - элитного босса невероятной силы. \nВаши способности: \n" +
+                "1) judgment - Сокрушительный удар, наносящий 100 урона в ближнем бою, отнимает 35 едениц ярости.\n" +
+                "2) willpower - Воля к победе повышает востанавление жизни игроку по 65 едениц в течении 3-х секунд, отнимает 20 единиц ярости.\n" +
+                "3) rampage - Вы впадаете в буйство нанося врагу серию ударов нанеся в общей сложности 125 урона и восстановливаете 60 едениц ярости лишаясь 30 единиц здоровья.\n");
 
             while (enableGame)
             {
                 if (healthBoss <= 0)
                 {
-                    Console.WriteLine("\nДорнозму умер. \n\nВы победили!");
+                    Console.WriteLine("\nДробитель умер. \n\nВы победили!");
                     enableGame = false;
                 }
                 else if (healthPlayer <= 0)
@@ -34,86 +33,84 @@ namespace FMA_Task_04
                     Console.WriteLine("\nВы погибли.");
                     enableGame = false;
                 }
-                else if (manaPlayer <= 0)
+                else if (ragePlayer < 0)
                 {
-                    Console.WriteLine("\nМана кончилась, вы погибли.");
+                    Console.WriteLine("\nЯрость кончилась, вы погибли.");
                     enableGame = false;
                 }
                 else
                 {
-                    Console.WriteLine("\nСтатистика Дорнозму: \n Здоровье: {0} , Урон: {1} \n\nСтатистика игрока: \n Здоровье: {2} , Мана: {3} \n", healthBoss, damageBoss, healthPlayer, manaPlayer);
-                    Console.WriteLine("Введите заклинание: ");
+                    Console.WriteLine("\nСтатистика Дробителя: \n Здоровье: {0} , Урон: {1} \n\nСтатистика игрока: \n Здоровье: {2} , Ярость: {3} \n", healthBoss, damageBoss, healthPlayer, ragePlayer);
+                    Console.WriteLine("Введите способность: ");
                     enterSpell = Console.ReadLine();
 
                     switch (enterSpell)
                     {
-                        case "fireball":
-                            if (manaPlayer >= 30)
+                        case "judgment":
+                            if (ragePlayer >= 35)
                             {
-                                healthBoss -= 70;
-                                manaPlayer -= 95;
+                                healthBoss -= 100;
+                                ragePlayer -= 35;
                             }
                             else
                             {
-                                Console.WriteLine("У вас не достаточно маны!");
+                                Console.WriteLine("У вас не достаточно ярости!");
                             }
                             break;
-                        case "healstone":
-                            if (manaPlayer >= 50)
+                        case "willpower":
+                            if (ragePlayer >= 20)
                             {
                                 for (int i = 0; i < 3; i++)
                                 {
-                                    if (healthPlayer <= 250)
+                                    if (healthPlayer < 500)
                                     {
                                         healthPlayer += 65;
                                         Thread.Sleep(1000);
-                                        Console.WriteLine("Ваше текущее здоровье равно: {0}/300", healthPlayer);
+                                        Console.WriteLine("Ваше текущее здоровье равно: {0}/500", healthPlayer);
                                     }
                                     else
                                     {
                                         Console.WriteLine("У вас полный запас здоровья!");
                                     }
                                 }
-                                manaPlayer -= 50;
+                                ragePlayer -= 20;
                             }
                             else
                             {
-                                Console.WriteLine("У вас не достаточно маны!");
+                                Console.WriteLine("У вас не достаточно ярости!");
                             }
                             break;
-                        case "manastone":
-                            if (manaPlayer >= 20)
+                        case "rampage":
+                            if (ragePlayer >= 20)
                             {
                                 for (int i = 0; i < 3; i++)
                                 {
-                                    if (manaPlayer <= 250)
+                                    if (ragePlayer < 100)
                                     {
-                                        manaPlayer += 65;
+                                        ragePlayer += 20;
                                         Thread.Sleep(1000);
-                                        Console.WriteLine("Ваша текущая мана ровна: {0}/400", manaPlayer);
+                                        Console.WriteLine("Ваша текущая ярость ровна: {0}/100", ragePlayer);
                                     }
                                     else
                                     {
-                                        Console.WriteLine("У вас полный запас маны!");
+                                        Console.WriteLine("У вас полный запас ярости!");
                                     }
                                 }
-                                manaPlayer -= 5;
+                                healthBoss -= 125;
+                                healthPlayer -= 50;
                             }
                             else
                             {
-                                Console.WriteLine("У вас не достаточно маны!");
+                                Console.WriteLine("У вас не достаточно ярости!");
                             }
                             break;
-                        case "killboss":
-                            healthBoss -= healthBoss + 10;
-                            break;
                         default:
-                            Console.WriteLine("{0} - неизвестное заклинание, произнесите заклинание правильно.", enterSpell);
+                            Console.WriteLine("{0} - неизвестная способность, используйте меч правильно.", enterSpell);
                             break;
                     }
                     healthPlayer -= damageBoss;
                     healthBoss += 10;
-                    manaPlayer += 15;
+                    ragePlayer += 15;
                 }
             }
         }

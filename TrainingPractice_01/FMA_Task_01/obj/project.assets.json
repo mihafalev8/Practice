@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\rde85\\.nuget\\packages\\": {}
+    "C:\\Users\\897-19\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rde85\\OneDrive\\Рабочий стол\\Practice\\TrainingPractice_01\\FMA_Task_01\\FMA_Task_01.csproj",
+      "projectUniqueName": "C:\\Users\\897-19\\Desktop\\Practice\\TrainingPractice_01\\FMA_Task_01\\FMA_Task_01.csproj",
       "projectName": "FMA_Task_01",
-      "projectPath": "C:\\Users\\rde85\\OneDrive\\Рабочий стол\\Practice\\TrainingPractice_01\\FMA_Task_01\\FMA_Task_01.csproj",
-      "packagesPath": "C:\\Users\\rde85\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rde85\\OneDrive\\Рабочий стол\\Practice\\TrainingPractice_01\\FMA_Task_01\\obj\\",
+      "projectPath": "C:\\Users\\897-19\\Desktop\\Practice\\TrainingPractice_01\\FMA_Task_01\\FMA_Task_01.csproj",
+      "packagesPath": "C:\\Users\\897-19\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\897-19\\Desktop\\Practice\\TrainingPractice_01\\FMA_Task_01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rde85\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\897-19\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,7 +32,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -44,7 +43,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -60,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.117\\RuntimeIdentifierGraph.json"
       }
     }
   }
